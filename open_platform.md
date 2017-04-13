@@ -117,5 +117,5 @@ It will be obtained an instance of `\EasyWeChat\Foundation\Application`.
 > Developers do not need to handle with the authorizer credentials `AuthorizerAccessToken`.
 
 ```php
-$app = $openPlatform->createAuthorizer($authorizerAppId, $authorizerRefreshToken);
+$app = $openPlatform->createAuthorizerApplication($authorizerAppId, $authorizerRefreshToken);
 ```
