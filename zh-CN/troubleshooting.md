@@ -124,3 +124,8 @@ OpenSSL support => enabled
 ```
 xdebug.max_nesting_level=200
 ```
+6.使用Laravel调试微信接口配置不能成功
+请检查Laravel中是否开启了Debugbar调试工具，请在 /config/debugbar.php 文件中关闭 /wechat 接口的调试
+'except' => [
+    'wechat'
+],
